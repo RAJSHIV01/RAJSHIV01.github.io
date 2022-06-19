@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOUSING.COM</title>
+
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg1.jpg');
+        height: 5000;
+        background-size: 850px;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+    }
+
+    .left {
+        position: absolute;
+        left: 33px;
+        top: -12px;
+        padding: 20px;
+        display: inline-block;
+        /* border: 3px solid black; */
+        position:fixed;
+
+    }
+
+    .left img {
+        width: 68px;
+        padding: 9px;
+    }
+
+    .left div {
+        text-align: center;
+        text-decoration: dotted;
+    }
+
+    .mid {
+        display: block;
+        width: 50%;
+        margin: 23px auto;
+        /* border: 3px solid blueviolet; */
+    }
+
+    .right {
+        position: absolute;
+        right: 33px;
+        top: 23px;
+        display: inline-block;
+        /* border: 3px solid brown; */
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        padding: 32px 22px;
+        font-size: 23px;
+    }
+
+    li:hover {
+        color: rgb(108, 101, 101);
+        cursor: pointer;
+        text-decoration: dashed;
+
+    }
+
+    .btn {
+        margin: 12px -1px;
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    .btn:hover {
+        background-color: rgb(108, 101, 101);
+        cursor: pointer;
+    }
+    .container{
+        border: 2px solid black;
+        padding: 96px;
+        margin: 118px 160px;
+        border-radius: 5px;
+    }
+    .formaction{
+        border: 2px solid palevioletred;
+        margin: 12px auto;
+        display: block;
+        padding: 7px;
+        border-radius: 5px;
+        width: 238px;
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        padding: 5px;
+        margin: 2px auto;
+    }
+    .container h1{
+        /* display: inline-block;
+        margin: -24px auto 12px;
+        padding: 33px;
+        width: 22px; */
+        text-align: center;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/logo.png" alt="">
+            <div>MAKE EASY</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href=""></a>Home</li>
+                <li><a href=""></a>About</li>
+                <li><a href=""></a>Booknow</li>
+                <li><a href=""></a>View More</li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">Contact</button>
+            <button class="btn">Join</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>BOOK YOUR HOUSE NOW</h1>
+        <form action="hyper.php">
+            <div class="formaction">
+                <input type="text" name="" id="" placeholder="ENTER YOUR NAME">
+            </div>
+            <div class="formaction">
+                <input type="text" name="" id="" placeholder="ENTER PRICE RANGE">
+            </div>
+            <div class="formaction">
+                <input type="text" name="" id="" placeholder="ENTER YOUR E-MAIL">
+            </div>
+            <div class="formaction">
+                <input type="text" name="" id="" placeholder="ENTER YOUR MOBILE NUMBER">
+            </div>
+            <button class="btn">SUBMIT</button>
+        </form>
+       
+    </div>
+</body>
+
+</html>
